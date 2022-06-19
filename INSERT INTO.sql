@@ -21,3 +21,4 @@ FROM HR.DEPARTMENTS_PAA;
 COMMIT;
 ROLLBACK;
 
+--Наполнить таблицу DEPARTMENTS_INICIALY, 5-мя строчками
