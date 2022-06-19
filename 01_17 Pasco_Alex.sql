@@ -6,3 +6,4 @@ SELECT EM.EMPLOYEE_ID,
 FROM HR.EMPLOYEES EM
 WHERE EM.MANAGER_ID IS NOT NULL
 ;
+--Выбрать всех сотрудников, у которых есть менеджеры (только подчиненные сотрудники)
