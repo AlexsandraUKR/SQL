@@ -4,4 +4,4 @@ WHERE EXISTS (SELECT * FROM HR.STUDENTS_PAA ST
               WHERE ST.DEPARTMENT_ID=DP.DEPARTMENT_ID)
 ;
 
-
+--Вывести названия департаментов, по которым есть студенты
