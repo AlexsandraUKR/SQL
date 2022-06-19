@@ -5,7 +5,7 @@ WHERE ST.SCHOLARSHIP IN (SELECT MAX(ST2.SCHOLARSHIP)
                         WHERE ST2.DEPARTMENT_ID = ST.DEPARTMENT_ID) 
 						; 
                         
-
+--Вывести список студентов, у которых максимальная стипендия, в рамках своей ид кафедры
 
 
 
