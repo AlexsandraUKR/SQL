@@ -3,3 +3,4 @@ FROM HR.EMPLOYEES EM
 ORDER BY LENGTH(EM.FIRST_NAME) DESC
 FETCH FIRST 1 ROWS ONLY;
 
+--Получить список сотрудников с самым длинным именем (изучить функцию LENGTH)
