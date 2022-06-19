@@ -9,4 +9,4 @@ INNER JOIN HR.DEPARTMENTS_PAA DP
 ON ST.DEPARTMENT_ID = DP.DEPARTMENT_ID
 ;
 
-
+--Вывести все поля из таблицы студентов, но вместо столбца DEPARTMENT_ID, нужно вывести поле DEPARTMENT_NAME из таблицы департаментов
