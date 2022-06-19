@@ -6,6 +6,6 @@ GROUP BY DP.DEPARTMENT_NAME
 HAVING COUNT (ST.DEPARTMENT_ID) >=4
 ;
 
-
+--Вывести список названий кафедр, где количество студентов больше либо равняется 4. 
 
 
